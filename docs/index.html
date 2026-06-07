@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Okure-nai — サポート</title>
+  <title>Okure-nai — macOS アラームアプリ</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600&family=Noto+Sans+JP:wght@400;500;600&display=swap" rel="stylesheet">
@@ -12,9 +12,9 @@
 <body>
   <header class="site-header">
     <div class="site-header-inner">
-      <p class="section-label">Support</p>
+      <p class="section-label">Official Homepage</p>
       <h1 class="site-title">Okure-nai</h1>
-      <p class="site-tagline">macOS 用アラームアプリ（メニューバー）のサポート情報・ポリシーです。</p>
+      <p class="site-tagline">macOS 用メニューバーアラームアプリ「Okure-nai」の公式ホームページです。会議や予定の開始時刻の2分前に通知し、遅刻を防ぎます。</p>
       <p class="home-privacy-lead" style="margin: 1rem 0 0;">
         <a href="privacy.html">プライバシーポリシー（Privacy Policy）</a>
       </p>
@@ -37,9 +37,53 @@
   </nav>
 
   <main>
+    <article class="section-tint policy-block" style="margin-top: 0;">
+      <h2 class="section-label" style="margin-bottom: 0.75rem;">日本語</h2>
+
+      <h2>Okure-nai とは</h2>
+      <p><strong>Okure-nai</strong> は、macOS のメニューバーから使えるアラームアプリです。手動で時刻を登録するほか、Google カレンダーと連携すると、<strong>当日の予定の開始時刻の2分前</strong>にアラームを自動設定できます。会議やアポイントに遅れないことを目的に開発しています。</p>
+
+      <h2>主な機能</h2>
+      <ul>
+        <li>メニューバーからアラームの追加・一覧・ON/OFF</li>
+        <li>指定時刻の<strong>2分前</strong>に通知（画面と通知センター）</li>
+        <li>Sign in with Apple によるアプリ利用の開始</li>
+        <li>Google カレンダー連携（任意）— 当日の予定に基づくアラームの自動設定</li>
+        <li>アプリ内からアカウントと端末内データの削除</li>
+      </ul>
+
+      <h2>Google カレンダー連携について</h2>
+      <p>連携は任意です。許可する場合、本アプリは Google Calendar API の<strong>読み取り専用（calendar.readonly）</strong>スコープのみを使用し、<strong>当日の予定</strong>を取得してアラーム時刻を決定します。予定データを当方のサーバーに保存することはなく、連携に必要なトークン等は<strong>お使いの Mac 上</strong>にのみ保存されます。</p>
+
+      <h2>データの取り扱い</h2>
+      <p>当方は利用者アカウント用のバックエンドデータベースを運用していません。詳細は <a href="privacy.html">プライバシーポリシー</a> をご覧ください。</p>
+
+      <div class="lang-divider">
+        <h2 class="section-label" style="margin-bottom: 0.75rem;">English</h2>
+
+        <h2>About Okure-nai</h2>
+        <p><strong>Okure-nai</strong> is a menu bar alarm app for macOS. You can set alarms manually, or optionally connect Google Calendar so the app automatically schedules alarms <strong>two minutes before</strong> the start time of today’s events. The app is designed to help you avoid being late to meetings and appointments.</p>
+
+        <h2>Main features</h2>
+        <ul>
+          <li>Add, list, and enable/disable alarms from the menu bar</li>
+          <li>Notifications <strong>two minutes before</strong> each scheduled time (on-screen alert and Notification Center)</li>
+          <li>Sign in with Apple to start using the app</li>
+          <li>Optional Google Calendar integration — automatic alarms based on today’s events</li>
+          <li>In-app account and on-device data deletion</li>
+        </ul>
+
+        <h2>How Google Calendar is used</h2>
+        <p>Calendar integration is optional. When enabled, the app uses only the <strong>read-only</strong> Google Calendar API scope (<code>calendar.readonly</code>) to fetch <strong>today’s events</strong> and determine alarm times. Event data is not stored on our servers; OAuth tokens and related data are kept <strong>only on your Mac</strong>.</p>
+
+        <h2>Data handling</h2>
+        <p>We do not operate a backend user database. See our <a href="privacy.html">Privacy Policy</a> for details.</p>
+      </div>
+    </article>
+
     <section class="section-tint policy-block" style="margin-bottom: 2rem;">
       <h2 class="section-label">Contact</h2>
-      <p style="margin: 0;">お問い合わせ・不具合のご連絡は、次のメールまでお願いします。</p>
+      <p style="margin: 0;">お問い合わせ・不具合のご連絡は、次のメールまでお願いします。<br>For support or bug reports, please contact:</p>
       <div class="contact-box" style="margin-top: 1rem;">
         <a href="mailto:yamaguchishohei93@gmail.com">yamaguchishohei93@gmail.com</a>
       </div>

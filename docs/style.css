@@ -172,6 +172,22 @@ main > p:first-of-type {
   margin: 0.6rem 0;
 }
 
+.policy-block ul {
+  margin: 0.6rem 0 0.6rem 1.25rem;
+  padding: 0;
+}
+
+.policy-block li {
+  margin: 0.35rem 0;
+}
+
+.policy-block code {
+  font-size: 0.875em;
+  background: var(--surface-muted);
+  padding: 0.1em 0.35em;
+  border: 1px solid var(--border);
+}
+
 .policy-block table {
   width: 100%;
   border-collapse: collapse;
