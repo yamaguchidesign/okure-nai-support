@@ -23,7 +23,7 @@
 
     <article class="policy-block">
       <h1>プライバシーポリシー（Okure-nai）</h1>
-      <p class="policy-meta"><strong>最終更新日:</strong> 2026年5月</p>
+      <p class="policy-meta"><strong>最終更新日:</strong> 2026年6月13日</p>
 
       <p>山口翔平（以下「当方」）は、macOS アプリ「Okure-nai」（以下「本アプリ」）における利用者情報の取扱いについて、次のとおり定めます。</p>
 
@@ -57,18 +57,29 @@
       </table>
 
       <h2>2. 第三者への提供・販売</h2>
-      <p>当方は、上記のデータを<strong>第三者に販売しません</strong>。広告配信のためのトラッキングや、本アプリの範囲を超えたデータ収集は行いません。</p>
+      <p>当方は、Google ユーザーデータを含む上記のデータを<strong>第三者に販売、貸与、共有、移転または開示しません</strong>。広告配信、行動追跡、信用評価その他、本アプリの機能提供と無関係な目的にも使用しません。</p>
+      <p>Google カレンダー連携に必要な認証情報およびリクエストは、利用者の操作に基づき、本アプリと Google の OAuth サービス、OpenID Connect サービスおよび Google Calendar API との間で直接送受信されます。当方のサーバー、広告事業者、分析事業者、データ仲介業者その他の第三者には送信しません。法令により開示が義務付けられる場合を除き、その他の開示は行いません。</p>
 
-      <h2>3. Google OAuth</h2>
+      <h2>3. データの保護</h2>
+      <p>Google ユーザーデータを含む機微なデータについて、次の保護措置を講じます。</p>
+      <ul>
+        <li>Google との認証および API 通信には HTTPS（TLS）を使用し、通信中のデータを暗号化します。</li>
+        <li>OAuth トークン、取得した当日の予定および関連設定は利用者の Mac 内でのみ処理し、当方のサーバーには保存しません。</li>
+        <li>本アプリは macOS App Sandbox 内で動作し、保存データへのアクセスは本アプリおよび利用者の macOS アカウントに制限されます。</li>
+        <li>Google Calendar API には読み取り専用権限を要求し、アラーム作成に必要な当日の予定だけを取得します。</li>
+        <li>Google カレンダー連携の解除時または「アカウントとデータの削除」の実行時に、本アプリが保存した OAuth トークンおよび関連データを端末から削除します。</li>
+      </ul>
+
+      <h2>4. Google OAuth</h2>
       <p>カレンダー連携時、<strong>Safari 等のブラウザで Google の認証画面</strong>が開きます。トークンの扱いは Google のポリシーも併せてご確認ください。連携を解除すると本アプリは保存したトークンを削除します。</p>
 
-      <h2>4. Sign in with Apple の解除</h2>
+      <h2>5. Sign in with Apple の解除</h2>
       <p>Apple ID 側でアプリへのアクセスを取り消すには、<a href="https://appleid.apple.com/" rel="noopener noreferrer">Apple ID の管理</a>から「サインインとセキュリティ」等をご利用ください。</p>
 
-      <h2>5. アカウント・データの削除</h2>
+      <h2>6. アカウント・データの削除</h2>
       <p>本アプリの設定に<strong>「アカウントとデータの削除」</strong>があります。実行すると、本アプリがこの Mac に保存している Sign in with Apple の識別情報、Google 連携情報、全アラーム、関連設定を削除します（取り消し不可）。サーバー側に保持するアカウントはありません。</p>
 
-      <h2>6. お問い合わせ</h2>
+      <h2>7. お問い合わせ</h2>
       <div class="contact-box">
         <p style="margin: 0 0 0.35rem;"><strong>サポートサイト</strong></p>
         <p style="margin: 0;"><a href="https://yamaguchidesign.github.io/okure-nai-support/">https://yamaguchidesign.github.io/okure-nai-support/</a></p>
@@ -81,7 +92,7 @@
 
     <article class="policy-block" lang="en">
       <h1>Privacy Policy (Okure-nai)</h1>
-      <p class="policy-meta"><strong>Last updated:</strong> May 2026</p>
+      <p class="policy-meta"><strong>Last updated:</strong> June 13, 2026</p>
 
       <p>This policy describes how the macOS app <strong>Okure-nai</strong> (“the App”) handles information. The developer (“we”) <strong>does not operate a server that stores user accounts</strong> for the App.</p>
 
@@ -115,18 +126,29 @@
       </table>
 
       <h2>2. Sharing and sale</h2>
-      <p>We <strong>do not sell</strong> this data. We do not use it for advertising or tracking beyond providing the App’s features.</p>
+      <p>We <strong>do not sell, rent, share, transfer, or disclose</strong> the data described above, including Google user data, to third parties. We do not use it for advertising, behavioral tracking, credit assessment, or any purpose unrelated to providing the App’s features.</p>
+      <p>Authentication information and requests required for Google Calendar integration are transmitted directly between the App and Google’s OAuth services, OpenID Connect service, and Google Calendar API at the user’s direction. They are not sent to our servers, advertising providers, analytics providers, data brokers, or other third parties. We make no other disclosures except where required by law.</p>
 
-      <h2>3. Google OAuth</h2>
+      <h2>3. Data protection</h2>
+      <p>We use the following safeguards for sensitive data, including Google user data:</p>
+      <ul>
+        <li>Authentication and API communications with Google use HTTPS (TLS), which encrypts data in transit.</li>
+        <li>OAuth tokens, calendar events retrieved for the current day, and related settings are processed only on the user’s Mac and are not stored on our servers.</li>
+        <li>The App runs within the macOS App Sandbox. Access to locally stored data is limited to the App and the user’s macOS account.</li>
+        <li>The App requests read-only Google Calendar access and retrieves only the current day’s events needed to create alarms.</li>
+        <li>Disconnecting Google Calendar or using “Delete account and data” removes OAuth tokens and related data stored by the App from the device.</li>
+      </ul>
+
+      <h2>4. Google OAuth</h2>
       <p>Calendar connection uses <strong>Google’s OAuth flow in the system browser</strong>. Please also refer to Google’s policies. Disconnecting in the App removes stored tokens from the device.</p>
 
-      <h2>4. Managing Sign in with Apple</h2>
+      <h2>5. Managing Sign in with Apple</h2>
       <p>You can revoke access for this app in your <strong>Apple ID</strong> settings (e.g. via <a href="https://appleid.apple.com/" rel="noopener noreferrer">appleid.apple.com</a>).</p>
 
-      <h2>5. Account and data deletion</h2>
+      <h2>6. Account and data deletion</h2>
       <p>In <strong>Settings</strong>, <strong>“Delete account and data”</strong> removes Sign in with Apple data stored by the App, disconnects Google Calendar, deletes all alarms and related preferences on this Mac. This cannot be undone. There is no separate server account to delete.</p>
 
-      <h2>6. Contact</h2>
+      <h2>7. Contact</h2>
       <div class="contact-box">
         <p style="margin: 0 0 0.35rem;"><strong>Support website</strong></p>
         <p style="margin: 0;"><a href="https://yamaguchidesign.github.io/okure-nai-support/">https://yamaguchidesign.github.io/okure-nai-support/</a></p>
